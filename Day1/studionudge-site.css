@@ -1,0 +1,93 @@
+*{border:0;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*::-webkit-scrollbar {
+  display: none;
+  }*/
+
+h1 {
+  padding:.05rem;
+  padding-left: 2rem;
+  font-size:2rem;
+  font-family: cursive;
+  /*font-size: 6rem;*/
+  color: black;
+  display: inline;
+  
+}
+
+#background {
+  background: url("restaurant_owners.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin: none;
+  top: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  padding-right: 40px;
+}
+
+ul {
+  display: inline;
+  float: right;
+  padding-right: 2rem;
+
+}
+
+li {
+  display: inline;
+}
+
+#reservations {
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+  color: white;
+  font-family: Arial;
+}
+
+.format {
+  color: white;
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 60px;
+}
+
+#footer {
+  height: 300px;
+  background-color: grey;
+  margin-bottom:0;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+}
+
+.footerStuff {
+  padding-right: 200px;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  background-color: orange;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
