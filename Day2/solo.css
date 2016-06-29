@@ -1,3 +1,52 @@
 .container {
-	color: #408BCD;
+	background-color: #408BCD;
+	color: white;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	padding-top: 90px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 90px;
+}
+h2{
+	color: #C3E4ED;
+	font-weight: lighter;
+}
+.button {
+	padding-top: 25px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-family: Verdana;
+}
+.btn-download {
+	background-color:#2dd98e;
+	color: white;
+	text-decoration:none;
+	border-radius: 100px;
+    padding-top: 0.54166667em;
+    padding-bottom: 0.65em;
+    padding-right: 3.25em;
+    padding-left: 3.25em;
+}
+.btn-try {
+	background-color: #7ab2e2;
+	color: white;
+	text-decoration:none;
+	border-radius: 100px;
+    padding-top: 0.54166667em;
+    padding-bottom: 0.65em;
+    padding-right: 3.25em;
+    padding-left: 3.25em;
+}
+
+.screenshot {
+	padding-bottom: 80px;
+}
+.footer {
+	background-color: #f8f8f8;
 }
