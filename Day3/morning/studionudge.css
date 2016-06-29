@@ -1,0 +1,36 @@
+
+h1 {
+  font-family: cursive;
+
+}
+.navbar ul li {
+  width: 100%;
+  background-color: white;
+  margin: none;
+  top: 0px;
+  border: 2px solid orange;
+}
+
+li .nav-btn {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: right;
+  display: inline;
+  list-style-type: none;
+}
+
+.images {
+  border: 2px solid blue;
+  
+}
+
+.img {
+  border: 2px solid red;
+}

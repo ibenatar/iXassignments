@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0px auto;
+	border: 3px solid black;
+}
+
+.responsive-image {
+	display: block;
+	width: 25%;
+	float: left;
+	height: 400px;
+}
+
+@media(max-width: 900px) {
+	.responsive-image {
+		width: 50%;
+	}
+}
+@media(max-width: 480px) {
+	.responsive-image {
+		width: 100%;
+	}
+}
+
+.first {
+	border: 2px solid red;
+}
+.second { 
+	border: 2px solid yellow;
+ }
+ .third { 
+	border: 2px solid blue;
+ }
+ .fourth { 
+	border: 2px solid orange;
+ }
+
+ .clearfix:after {
+
+ }
