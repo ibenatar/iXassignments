@@ -1,0 +1,182 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+.background {
+	position: relative;
+	background-image: url('lionshead.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+ul {
+	list-style-type: none;
+	margin-top: 100px;
+}
+.nav-items {
+	float: left;
+	font-family: Copperplate Gothic Light;
+	position: fixed;
+}
+.link:hover::before{
+	position: absolute;
+}
+
+.nav-ul li{
+	margin-top: 70px;
+}
+.link {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.nav-items li {
+	border: 1px solid none;
+	text-align: left;
+}
+.nav-items li:hover {
+	box-shadow: 0 1px 1px rgba (0,0,0,.3);
+	transform: translate(0,-1.5px);
+}
+/*.nav-items {
+	transition: box-shadow .3s;
+}*/
+
+img {
+	width: 100%;
+}
+
+.linebreak {
+	width: 20%;
+	padding-left: 80px;
+	padding-top: 200px;
+}
+.aboutpg {
+	background-color: #e4cbeb;
+	height: 500px;
+}
+.about {
+	font-family: Copperplate Gothic Light;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 60px;
+}
+.info {
+	padding-top: 40px;
+	/*padding-right: 80px;
+	padding-left: 80px;*/
+	font-family: Georgia;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 50px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.resume-btn {
+	font-family: Copperplate Gothic Light;
+	padding-top: 80px;
+	text-align: center
+}
+
+.resume-btn:hover {
+	box-shadow: 0 1px 1px rgba (0,0,0,.3);
+	transform: translate(0,-1.5px);
+}
+
+.down-arrow {
+	width: 40px;
+	margin: auto;
+}
+
+.resumepg {
+	background-color: #83889e;
+	height: 400px;
+}
+
+.resume {
+	font-family: Copperplate Gothic Light;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 60px;
+	color: white;
+}
+
+.button {
+/*	background-color: #dddbdb;*/
+	color: white;
+	font-family: Verdana;
+	font-size: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: box-shadow .3s;
+
+/*	border:1px solid #a8c1d9; */
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ 	background-color: #CEDCE7;
+background-image: -webkit-linear-gradient(#CEDCE7, #596a72);
+background-image: -o-linear-gradient(#CEDCE7, #596a72);
+background-image: linear-gradient(#CEDCE7, #596a72);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CEDCE7, endColorstr=#596a72);
+}
+
+.button:hover{
+	box-shadow: 0px 2px 2px rgba(0,0,0,.3);
+	transform: translate(0,-3px);
+}
+.button:active {
+	transform: translate(0,-3px) scale(.95);
+}
+
+.contactpg {
+	background-color: #bcd0c4;
+	height: 600px;
+}
+
+.contact {
+	font-family: Copperplate Gothic Light;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 60px;
+	color: black;
+}
+
+.icons {
+	text-align: center;
+	margin-top: 5%;
+}
+.icon {
+	display: inline-block;
+	width: 90px;
+	margin: auto;
+	height: 80px;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.fb img {
+	width: 80%;
+	padding-top: -10px;
+}
+.email img {
+	width: 70%;
+	padding-top: 5px;
+}
+.linkedin img {
+	width: 60%;
+	padding-top: 10px;
+}
+

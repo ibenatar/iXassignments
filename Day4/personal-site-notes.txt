@@ -1,0 +1,5 @@
+Have central text in main page resize with screen 
+
+try resizing the front page vertically.. you get cut off
+
+Make hovering over the nav bar more noticeable (make it obvious that they are clickable buttons)
