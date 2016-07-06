@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body ng-app="calculatorApp">
+	<div ng-controller="CalculatorCtrl">
+		<input ng-model="x">
+		<input ng-model="y">
+		<button ng-click="doAdd()">Add</button>
+		<button ng-click="doMultiply()">Multiply</button>
+		<button ng-click="doDivide()">Divide</button>
+		<p>The result is: {{ result }}</p>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+	<script src="calculator.js"></script>
+</body>
+</html>
