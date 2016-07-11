@@ -1,0 +1,12 @@
+<div ng-controller='MovieCtrl'>
+	<h1> {{ Title }}</h1>
+	<h2> Director: {{ Director }}</h2>
+	<h2> Actors: {{ Actors }}</h2>
+	<p> Plot: {{ Plot }}</p>
+
+
+	<div ng-repeat="g in gifs">
+		<img src="{{g.images.fixed_height.url}}">
+	</div>
+
+</div>
