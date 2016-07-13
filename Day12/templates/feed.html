@@ -1,0 +1,16 @@
+<div class="nav container-fluid header">
+	<div>Select a name: <select ng-options="bru.id as bru.first_name for bru in brus" ng-model="selectedBru"></select></div>
+	<input type="text" ng-model="newPropsValue">
+	<button class="myChommie" ng-click="sendProps(selectedBru, newPropsValue)">Send Props</button>
+	<button  ><a  class="myChommie" href="#/me/isabel">My Chommie page</a></button>
+</div>
+	<h1>{{error}}</h1>
+<ul>
+	<li class="feed-items" ng-repeat='p in props'>
+
+		<div class="name"> {{ p.receiver.first_name }} </div>
+		<div class="prop"> - {{ p.text }} - </div>
+	</li>
+</ul>
+
+

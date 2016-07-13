@@ -1,0 +1,31 @@
+* {
+	background-color: #a6fff4;
+}
+.title {
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+.mychommies {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+}
+ul {
+	list-style: none;
+}
+/*.nav {
+	margin: 0px auto;
+	width: 40%;
+}*/
+.myChommie{
+	display: inline-block;
+}
+.feed-items {
+	text-align: center;
+	list-style: none;
+}
+.name {
+	font-family: Georgia;
+	font-size: 24px;
+}
