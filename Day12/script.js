@@ -13,6 +13,7 @@ app.config(function($routeProvider) {
 
 //Main page's controller
 app.controller('FeedCtrl', function($scope, $http) {
+	$scope.isSending = false;
 
 //GET the props from the API
 	$http({
@@ -40,6 +41,8 @@ app.controller('FeedCtrl', function($scope, $http) {
 
 //Send props to API
 	$scope.sendProps = function(x, y) {
+		$scope.errorMessage = "";
+		$scope.isSending = true;
 		$http({
 		url: 'http://ixchommies.herokuapp.com/props',
 		method: 'POST',
@@ -54,9 +57,10 @@ app.controller('FeedCtrl', function($scope, $http) {
 //add props to your array of props
 		$scope.props.unshift(response.data);
 		$scope.newPropsValue = "";
-	}).catch(function(response2) {
-		// alert("Your comment was not positive enough");
-		$scope.error = "that is an invalid input"
+	}).catch(function(response) {
+		$scope.errorMessage = response.data.message;
+	}).finally(function(response) {
+		$scope.isSending = false;
 	});
   	}
 });
