@@ -1,0 +1,22 @@
+<div class="container-fluid">
+<div class="row">
+
+<button class="signout-btn" ng-click="authObj.$signOut()">Sign out</button>
+
+	<form ng-submit="sendMessage()">
+		<div class="name">
+			Name:
+			<input type="text" ng-model="userName">
+		</div>
+		<div class="message">
+			Message:
+			<input class="input" type="text" ng-model="newMessage">
+			<button class="send-btn" type="submit">Send</button>
+		</div>
+    </form>
+
+    <div class="messages" ng-repeat="m in messages">
+    	{{m.name}}: {{m.text}}
+    </div>
+</div>
+

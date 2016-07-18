@@ -1,0 +1,31 @@
+<div class="container-fluid">
+	<div class="row">
+	Tension
+	<form ng-submit="sendMessage()">
+	Name:
+    	<input type="text" ng-model="userName">
+	Message:
+    	<input type="text" ng-model="newMessage">
+      	<button type="submit">Add Message</button>
+    </form>
+    <div ng-repeat="m in messages">
+    	{{m.sender}}: {{m.text}}
+    </div>
+</div>
+
+
+<!-- <input type="text" ng-model="messages.text"/>
+    <! all changes from our Firebase database magically appear here! -->
+<!--     <h1>You said: {{ messages.text }}</h1>
+
+	<ul>
+      <li ng-repeat="message in messages">
+      	{{ message.text }}
+      	edit a message
+      	<input ng-model="message.text" ng-change="messages.$save(message)"/>"
+		<! delete a message -->
+<!--         <button ng-click="messages.$remove(message)">Delete Message</button> -->
+<!--       </li>
+  </ul> --> 
+
+<!-- push a new message onto the array -->

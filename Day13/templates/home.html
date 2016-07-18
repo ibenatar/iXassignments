@@ -1,0 +1,19 @@
+
+<h1>Channels</h1>
+
+<!-- <a href="#/login" ng-click="authObj.$signOut()">Sign Out</a>
+ -->
+<button ng-click="signOut()">Sign Out</button>
+
+<form ng-submit="addChannel()">
+  Channel name: <input ng-model="channelName" type="text">
+  Channel description: <input ng-model="channelDescription" type="text">
+  <input type="submit" value="Submit">
+</form>
+
+<ul>
+	<li class="channel-names" ng-repeat="channel in channels">
+		<a href="#/channel/{{channel.name}}"> {{channel.name}} </a>
+	</li>
+</ul>
+

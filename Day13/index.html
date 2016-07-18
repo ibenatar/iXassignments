@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<title>Tension</title>
+	<link rel="stylesheet" type="text/css" href="styling.css"/>
+
+</head>
+
+<body ng-app="tensionApp">
+
+	<div class="navbar container-fluid">
+		<div class="title">Tension</div>
+	</div>
+
+	<div ng-view></div>
+	
+	<script src="angular.js"></script>
+	<script src="angular-route.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+	<script>
+
+	var config = {
+		apiKey: "AIzaSyAOuUXhY32MvhGZGvS-9Pw_Xa7x2tKeG3g",
+		authDomain: "ixtension2.firebaseapp.com",
+		databaseURL: "https://ixtension2.firebaseio.com",
+		storageBucket: "ixtension2.appspot.com",
+	};
+	  firebase.initializeApp(config);
+	</script>
+	<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<div ng-show="errorMessage" class="alert alert-danger">{{errorMessage}}</div>
+
+<h2>Sign up</h2>
+<form ng-submit="signUp()">
+  <div>
+    <label>Name</label>
+    <input ng-model="name">
+  </div>
+  
+  <div>
+    <label>Email</label>
+    <input ng-model="email">
+  </div>
+​
+<div>
+    <label>Password</label>
+    <input ng-model="password">
+  </div>
+  
+  <button>Sign up</button>
+  
+</form>
